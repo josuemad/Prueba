@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="920.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="boleteriacine.InicioController">
+    <children>
+      <Pane fx:id="paneInicio" layoutX="135.0" layoutY="123.0" opacity="0.85" prefHeight="404.0" prefWidth="651.0" style="-fx-background-color: black;" stylesheets="@../config/paneInicio.css">
+         <children>
+              <Button fx:id="button" layoutX="214.0" layoutY="220.0" onAction="#handleButtonAction" prefHeight="65.0" prefWidth="225.0" text="Reservar boletos" />
+            <Label layoutX="35.0" layoutY="114.0" text="¡Bienvenido a boleterías Visuales S.A!" />
+         </children></Pane>
+    </children>
+</AnchorPane>

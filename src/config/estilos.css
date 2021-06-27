@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/12/2020, 11:59:28 AM
+    Author     : Josue
+*/
+.root {
+-fx-background-image: url('/image/cine.jpg');
+-fx-background-position: 1;
+-fx-background-size: 1200;
+-fx-background-radius: 10px;
+-fx-font-family: "Trebuchet MS";
+ 
+}
+
+.button {
+-fx-text-fill: white;
+-fx-font-size: 16.0px;
+-fx-background-color: #cccc00;
+-fx-background-radius: 10px;
+-fx-font-weight: bold;
+-fx-font-family: "Trebuchet MS";
+}
+
+.button:hover {
+    -fx-background-color: #999900;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 35.0px;
+    -fx-font-family: "Trebuchet MS";
+}

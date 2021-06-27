@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/12/2020, 09:46:21 AM
+    Author     : Josue
+*/
+
+.root{
+    -fx-background-color: #0f0f0f;
+    /*-fx-effect: dropshadow( gaussian, rgba(0, 0, 0, 0.4), 10, 0.5, 0.0, 0.0 );
+    -fx-background-radius: 5;
+    -fx-padding: 10;*/
+}
+
+.content {
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+    -fx-padding: 10;
+}
+
+ .label{
+    -fx-text-fill: black;
+    -fx-font-size: 12.0px;
+    -fx-font-family: "Trebuchet MS";
+}
+#disp{
+    -fx-font-size: 20.0px;
+    -fx-text-fill: white;
+}
+#rese{
+    -fx-font-size: 20.0px;
+    -fx-text-fill: white;
+}
+#S1{
+    -fx-font-size: 14.0px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+#S2{
+    -fx-font-size: 14.0px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+#S3{
+    -fx-font-size: 14.0px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+#nomb{
+    -fx-font-size: 14.0px;
+    -fx-text-fill: white;
+}
+#ed{
+    -fx-font-size: 14.0px;
+    -fx-text-fill: white;
+}
+#reserva{
+    -fx-text-fill: white;
+    -fx-font-size: 16.0px;
+    -fx-background-color: #809087;
+    -fx-background-radius: 10px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Trebuchet MS";
+    -fx-pref-height: 65px; 
+    -fx-pref-width: 245px;
+    -fx-opacity: 0.8;
+}
+
+#reserva:hover {
+    -fx-background-color: #999900;
+}
+
+#estado{
+    -fx-font-size: 14.0px;
+    -fx-text-fill: greenyellow;
+    -fx-font-family: "Trebuchet MS";
+}
+#ed1{
+    -fx-font-size: 14.0px;
+    -fx-text-fill: red;
+}
+#ed2{
+    -fx-font-size: 14.0px;
+    -fx-text-fill: red;
+}
+#ed3{
+    -fx-font-size: 14.0px;
+    -fx-text-fill: red;
+}
+#lbNumeros{
+    -fx-font-size: 12.0px;
+    -fx-text-fill: white;
+}
+#txtLetras{
+    -fx-font-size: 14.0px;
+    -fx-text-fill: white; 
+}
